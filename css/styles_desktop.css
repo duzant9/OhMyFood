@@ -1,0 +1,17 @@
+
+
+#Restaurant_search{
+    height: 190px;
+}
+article{
+    width: 24%;
+    height: 280px;
+}
+.footer{
+    height: 100px;
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
