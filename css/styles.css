@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
 h3{
     font-family: 'Shrikhand', cursive;
@@ -29,6 +30,10 @@ body{
 /*--Header--*/
 header{
     height: 50px;
+}
+.header{
+    box-shadow: 3px 5px 7px #d1d1d1;
+    height: 45px;
 }
 .logo{
     width: 200px;
@@ -76,6 +81,7 @@ h1{
     background: linear-gradient(#FF79DA, #9356DC);
     color: white;
     font-size: 17px;
+    box-shadow: 2px 5px 10px #c8c8c8;
 }
 .explore:hover{
     cursor: pointer;
@@ -93,8 +99,10 @@ h1{
 }
 .steps:hover{
     background-color: #9256dc37;
-    color: #9356DC;
     cursor: pointer;
+}
+.steps:hover > .steps_icon{
+    color: #9356DC;
 }
 .cercle_number{
     color: white;
@@ -120,6 +128,19 @@ article{
     border-radius: 20px;
     box-shadow: 2px 5px 10px #e5e5e6;
     margin-bottom: 25px;
+}
+.new{
+    background-color: #99e2d0;
+    color: #1d8a64;
+    width: 75px; height: 25px;
+    padding-top: 7px; padding-left: 13px;
+    border-radius: 3px;
+}
+.new1{
+    position: absolute; top: 1035px; right: 9%;
+}
+.new2{
+    position: absolute; top: 1315px; right: 9%;
 }
 .description{
     text-decoration: none;
@@ -173,10 +194,8 @@ h2{
 h3{
     margin-top: 0; padding-top: 20px;
     color: white;
-    font-family: shrikhand;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 20px;
+    font-family: 'shrikhand', cursive;
+    font-size: 18px;
 }
 .footer_icon{
     padding-right: 7px;
