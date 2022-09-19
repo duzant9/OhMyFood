@@ -1,3 +1,25 @@
+
+/*--Restaurant search--*/
+#Restaurant_search{
+    height: 190px;
+}
+
+/*--Steps--*/
+#shift{
+    display: flex;
+}
+.steps{
+    width: 29%;
+}
+/*--Restaurant search--*/
+.steps_icon{
+    margin: 15px;
+}
+
+/*--restaurant cards--*/
+#restaurant_cards{
+    margin-top: 40px;
+}
 .cards{
     flex-direction: row;
     display: flex;
@@ -6,6 +28,14 @@
 article{
     width: 45%;
 }
+.new1{
+    position: absolute; top: 720px; right: 54%;
+}
+.new2{
+    position: absolute; top: 720px; right: 4%;
+}
+
+/*--Footer--*/
 .footer{
     height: 100px;
 }
