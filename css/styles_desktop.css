@@ -1,12 +1,36 @@
 
+/*--Steps--*/
+#shift{
+    flex-direction: column;
+}
+.steps{
+    width: 35%;
+}
+.step2{
+    margin-left: auto; margin-right: auto;
+}
+.step3{
+   margin-left: auto; margin-right: 32px;
+}
 
-#Restaurant_search{
-    height: 190px;
+/*--Restaurant cards--*/
+#restaurant_cards{
+    margin-top: 40px;
 }
 article{
     width: 24%;
     height: 280px;
 }
+.new1{
+    position: absolute; top: 900px; right: 77%;
+}
+.new2{
+    position: absolute; top: 900px; right:  52%;
+}
+
+
+
+/*--Footer--*/
 .footer{
     height: 100px;
 }
