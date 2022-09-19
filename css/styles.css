@@ -62,7 +62,7 @@ header{
 
 /*--Restaurant search section--*/
 #Restaurant_search{
-    height: 275px;
+    height: 255px;
     padding-top: 43px;
     background-color: #f3f2f4;
 }
@@ -95,7 +95,7 @@ h1{
     width: 85%;
     margin-bottom: 25px; margin-left: 32px;
     box-shadow: 2px 5px 10px #e5e5e6;
-    height: 75px;
+    height: 65px;
 }
 .steps:hover{
     background-color: #9256dc37;
@@ -120,7 +120,7 @@ h1{
 #restaurant_cards{
     background-color: #f3f2f4;
     padding-top: 20px; padding-bottom: 55px;
-    margin-top: 85px;
+    margin-top: 80px;
 }
 article{
     background-color: white;
@@ -137,10 +137,10 @@ article{
     border-radius: 3px;
 }
 .new1{
-    position: absolute; top: 1035px; right: 9%;
+    position: absolute; top: 980px; right: 9%;
 }
 .new2{
-    position: absolute; top: 1315px; right: 9%;
+    position: absolute; top: 1260px; right: 9%;
 }
 .description{
     text-decoration: none;
