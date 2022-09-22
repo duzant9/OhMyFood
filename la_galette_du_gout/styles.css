@@ -8,17 +8,62 @@ h1{
     font-family: 'Shrikhand', cursive;
 }
 
+/*--General--*/
+.margin-left23{
+    margin-left: 23px;
+}
+.capital{
+    text-transform: uppercase;
+    margin-bottom: 0; margin-top: 40px;
+}
+.selection{
+    background-color: white;
+    border-radius: 20px;
+    width: 92%; height: 72px;
+    margin: auto;
+    box-shadow: 0 0 10px #d9d9d9;
+    margin-bottom: 13px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    margin: 0 0 3px 12px; 
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+}
+p{
+    margin: 3px 0 10px 12px;
+    height: 18px;
+    
+}
+p, h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.no_overflow{
+    margin-right: 30px;
+    min-width: 30px;
+}
 
+
+/*--Hearder--*/
 header{
     height: 50px;
 }
 .header{
-    box-shadow: 3px 5px 7px #d1d1d1;
     height: 45px;
 }
 .left_arrow{
     position: absolute; top: 25px; left: 25px;
     font-size: 22px;
+}
+.header > a{
+    color: black;
+    text-decoration: none;
 }
 .logo{
     width: 200px;
@@ -27,6 +72,70 @@ header{
     margin: 20px auto 15px auto;
 }
 .menu_img{
-    width: 110%;
-    margin-left: -15px;
+    width: 100%;
+}
+/*--Menu Section--*/
+#menu{
+    background-color:#f6f6f6;
+    border-radius: 45px 45px 0 0;
+    margin-top: -80px;
+    padding-bottom: 60px;
+    position: relative;    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-weight: 500; font-size: 29px;
+    margin: 40px 30px 0 20px;
+}
+.heart{
+    font-size: 25px;
+    margin-right: 10%; margin-top: 40px;
+}
+.border_bottom{
+    border-bottom: 3px solid #99E2D0;
+    width: 40px; height: 5px;
+    margin-top: 0; margin-bottom: 15px;
+}
+.order_button{
+    border-radius: 40px; border: none;
+    padding: 18px 55px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-size: 17px;
+    box-shadow: 2px 5px 10px #c8c8c8;
+    display: block;
+    margin: auto; margin-top: 50px;
+}
+.order_button:hover{
+    cursor: pointer;
+}
+
+/*--Footer--*/
+.footer{
+    padding-left: 25px;
+    height: 170px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+.footer_link{
+    margin-bottom: 8px;
+}
+.no_deco{
+    text-decoration: none;
+    color: white;
+}
+h3{
+    margin-top: 0; padding-top: 20px;
+    color: white;
+    font-family: 'shrikhand', cursive;
+    font-size: 18px;
+}
+.footer_icon{
+    padding-right: 7px;
+}
+.icon_size{
+    font-size: 11px;
 }
