@@ -161,6 +161,9 @@ article{
     display: flex;
     align-items: center; justify-content: space-between;
 }
+.weight200{
+    font-weight: 200;
+}
 .heart{
     font-size: 27px;
     margin-right: 25px;
