@@ -37,20 +37,22 @@ h2{
 p{
     margin: 3px 0 10px 12px;
     height: 18px;
-    
 }
 p, h2{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .no_overflow{
     margin-right: 30px;
     min-width: 30px;
 }
+.weight200{
+    font-weight: 200;
+}
 
-
-/*--Hearder--*/
+/*--Header--*/
 header{
     height: 50px;
 }
@@ -61,7 +63,7 @@ header{
     position: absolute; top: 25px; left: 25px;
     font-size: 22px;
 }
-.header > a{
+a{
     color: black;
     text-decoration: none;
 }
@@ -74,6 +76,7 @@ header{
 .menu_img{
     width: 100%;
 }
+
 /*--Menu Section--*/
 #menu{
     background-color:#f6f6f6;
