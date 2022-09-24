@@ -1,0 +1,10 @@
+
+/*--Footer--*/
+.footer{
+    height: 100px;
+}
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
