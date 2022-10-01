@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
-h3{
+h4{
     font-family: 'Shrikhand', cursive;
 }
 body{
@@ -26,33 +26,35 @@ body{
 .padding_top15{
     padding-top: 15px;
 }
-
-/*--Header--*/
+p{
+    font-weight: 200;
+}
+/*-- Header --*/
 header{
     height: 50px;
 }
-.header{
+.main_header{
     box-shadow: 3px 5px 7px #d1d1d1;
     height: 45px;
 }
-.logo{
+.hearder_logo{
     width: 200px;
     height: 35px;
     display: block;
     margin: 20px auto 15px auto;
 }
 
-/*--City search section--*/
-.city_search{
+/*-- Section Location --*/
+.section_location{
     background-color: #e5e5e6;
     justify-content: center; align-items: center;
     height: 55px;
     
 }
-.location_dot{
+.fa-location-dot{
     font-size: 20px;
 }
-.city{
+.location{
     border: none;
     margin-left: 22px;
     background-color: transparent;
@@ -60,8 +62,8 @@ header{
     width: 170px;
 }
 
-/*--Restaurant search section--*/
-#Restaurant_search{
+/*-- Section Explore --*/
+.section_explore{
     height: 255px;
     padding-top: 43px;
     background-color: #f3f2f4;
@@ -69,33 +71,39 @@ header{
 h1{
     width: 80%;
     font-size: 26px; font-weight: 550;
-    margin: 40px 0 30px 20px;
+    text-align: center;
+    margin: auto;
 }
 .text_size{
-    font-size: 18px; font-weight: 100;
+    font-size: 18px;
 }
-.explore{
+button{
     border-radius: 40px; border: none;
-    margin-top: 30px;
+    display: block;
+    margin: 30px auto;
     padding: 18px 28px;
     background: linear-gradient(#FF79DA, #9356DC);
     color: white;
     font-size: 17px;
     box-shadow: 2px 5px 10px #c8c8c8;
 }
-.explore:hover{
+button:hover{
     cursor: pointer;
+    background: linear-gradient(#fe86dc, #9c69db);
+    box-shadow: 2px 5px 10px #7d7d7d;
 }
 
-/*--Steps--*/
+/*-- Steps --*/
+ul{
+    padding-left: 32px;
+}
 .steps{
     align-items: center;
     background-color: #f3f2f4;
     border-radius: 20px;
-    width: 85%;
-    margin-bottom: 25px; margin-left: 32px;
+    width: 95%; height: 65px;
+    margin-bottom: 25px;
     box-shadow: 2px 5px 10px #e5e5e6;
-    height: 65px;
 }
 .steps:hover{
     background-color: #9256dc37;
@@ -104,7 +112,7 @@ h1{
 .steps:hover > .steps_icon{
     color: #9356DC;
 }
-.cercle_number{
+.steps_number{
     color: white;
     background-color: #9356DC;
     border-radius: 20px;
@@ -114,20 +122,25 @@ h1{
 .steps_icon{
     margin: 23px;
     font-size: 20px;
+    color: gray;
 }
 
-/*--restaurant cards--*/
-#restaurant_cards{
+/*-- Section Restaurants --*/
+.section_restaurants{
     background-color: #f3f2f4;
     padding-top: 20px; padding-bottom: 55px;
     margin-top: 80px;
+}
+h2{
+    font-size: 26px; font-weight: 550;
+    margin: 40px 0 30px 20px;
 }
 article{
     background-color: white;
     width: 88%;
     border-radius: 20px;
     box-shadow: 2px 5px 10px #e5e5e6;
-    margin-bottom: 25px;
+    margin: 0 auto 20px
 }
 .new{
     background-color: #99e2d0;
@@ -142,40 +155,62 @@ article{
 .new2{
     position: absolute; top: 1260px; right: 9%;
 }
-.description{
+a{
     text-decoration: none;
     color: black;
 }
-.resto_pic{
+figure{
+    margin: 0;
+}
+.restaurant_img{
     width: 100%; height: 180px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.marge_left15{
-    margin: 15px;
-}
-.marge0{
-    margin-top: 0; margin-bottom: 0;
-}
-.flex_wrap{
+figcaption{
     display: flex;
     align-items: center; justify-content: space-between;
+}
+.description{
+    margin: 15px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom: 3px;
+    margin-top: 0; margin-bottom: 0;
+}
+.no_margin{
+    margin: 0;
 }
 .weight200{
     font-weight: 200;
 }
-.heart{
+.fa-heart{
     font-size: 27px;
     margin-right: 25px;
 }
-.heart:hover{
+figcaption > i{
+    position: absolute; right: 8%;
+    transition: .3s;
     cursor: pointer;
-    color: #9356DC;
 }
-h2{
-    font-size: 20px;
-    padding-bottom: 3px;
+figcaption > .fill{
+    color: black;
+    cursor: pointer;
+    
 }
+figcaption > .fill:hover{
+    animation: fill .5s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bold;
+    
+}
+
 .marge_bottom{
     margin-bottom: 20px;
 }
@@ -194,7 +229,7 @@ h2{
     text-decoration: none;
     color: white;
 }
-h3{
+h4{
     margin-top: 0; padding-top: 20px;
     color: white;
     font-family: 'shrikhand', cursive;

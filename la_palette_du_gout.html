@@ -5,139 +5,163 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="la_galette_du_gout/styles.css">
-        <link rel="stylesheet" media="screen and (min-width: 768px)" href="la_galette_du_gout/styles_tablette.css" />
-        <link rel="stylesheet" media="screen and (min-width: 992px)" href="la_galette_du_gout/styles_desktop.css" />
+        <link rel="stylesheet" href="la_palette_du_gout/styles.css">
+        <link rel="stylesheet" media="screen and (min-width: 768px)" href="la_palette_du_gout/styles_tablette.css" />
+        <link rel="stylesheet" media="screen and (min-width: 992px)" href="la_palette_du_gout/styles_desktop.css" />
         <script src="https://kit.fontawesome.com/7fb99cd388.js" crossorigin="anonymous"></script>
         <title>Menu la palette du goût</title>
     </head>
 
     <body>
+        <!-- Header -->
         <header>
-            <div class="header">
-                <a href="index.html">
-                <i class="fa-solid fa-arrow-left left_arrow"></i>
-                </a>
-                <img class="logo" src="images/logo/ohmyfood.png" alt="logo"/>
+            <div class="main_header">
+                <a href="index.html"><i class="fa-solid fa-arrow-left left_arrow"></i></a>
+                <img class="header_logo" src="images/logo/ohmyfood.png" alt="header logo"/>
             </div>
         </header>
 
-        <div>
-            <img class="menu_img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="menu_img">
-        </div>
-
-        <section id="menu">
-            <div class="title">
-                <h1>La palette du goût</h1>
-                <i class="fa-regular fa-heart heart"></i>
-            </div>
+        <main>
             <div>
-                <p class="margin-left23 capital">entrées</p>
-                <p class="border_bottom margin-left23"></p>
-                <article class="selection">
-                    <a href="#">
-                        <h2>Fricassée d'escargot</h2>
-                        <div class="flex">
-                            <p class="weight200">Au pimet d'espelette</p>
-                            <p class="no_overflow">25€</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="selection">
-                    <a href="#">
-                        <h2>Foie gras de canard mi-cuit</h2>
-                        <div class="flex">
-                            <p class="weight200">Et ses copeaux de truffe noire</p>
-                            <p class="no_overflow">35€</p>
-                        </div>
-                    </a>
-                </article>
-
-                <article class="selection">
-                    <a href="#">
-                        <h2>Oeuf au plat</h2>
-                        <div class="flex">
-                            <p class="weight200">Assaisonné à la truffe sur lit de caviar</p>
-                            <p class="no_overflow">20€</p>
-                        </div>
-                    </a>
-                </article>
+                <img class="menu_img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="menu_img">
             </div>
-            <div>
-                <p class="margin-left23 capital">Plats</p>
-                <p class="border_bottom margin-left23"></p>
-                <article class="selection">
-                    <a href="#">
-                        <h2>Filet de boeuf aux herbes</h2>
-                        <div class="flex">
-                            <p class="weight200">Accompagné de sa ribambelle de légumes</p>
-                            <p class="no_overflow">40€</p>
-                        </div>
-                    </a>
-                </article>
+            <!-- Section Menu -->
+            <section class="main_menu">
+                <div class="title">
+                    <h1>La palette du goût</h1>
+                    <i class="fa-regular fa-heart heart"></i>
+                </div>
+                    <!-- Section Entrées -->
+                    <section >
+                        <div class="flex_menu">
+                            <div class="auto">
+                                <h2>entrées</h2>
+                                <p class="border_bottom"></p>
+                            </div>
+                            <div class="selection_width">
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Fricassée d'escargot</h3>
+                                        <div class="flex">
+                                            <p class="description">Au pimet d'espelette</p>
+                                            <p class="no_overflow">25€</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Foie gras de canard mi-cuit</h3>
+                                        <div class="flex">
+                                            <p class="description">Et ses copeaux de truffe noire</p>
+                                            <p class="no_overflow">35€</p>
+                                        </div>
+                                    </a>
+                                </article>
 
-                <article class="selection">
-                    <a href="#">
-                        <h2>Parmentier de queue de boeuf</h2>
-                        <div class="flex">
-                            <p class="weight200">À la truffe noire sur sa purée de panais</p>
-                            <p class="no_overflow">35€</p>
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Oeuf au plat</h3>
+                                        <div class="flex">
+                                            <p class="description">Assaisonné à la truffe sur lit de caviar</p>
+                                            <p class="no_overflow">20€</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
                         </div>
-                    </a>
-                </article>
+                    </section>
 
-                <article class="selection">
-                    <a href="#">
-                        <h2>Filet de turbot</h2>
-                        <div class="flex">
-                            <p class="weight200">Aux agrumes</p>
-                            <p class="no_overflow">44€</p>
-                        </div>
-                    </a>
-                </article>
-            </div>
-            <div>
-                <p class="margin-left23 capital">Desserts</p>
-                <p class="border_bottom margin-left23"></p>
-                <article class="selection">
-                    <a href="#">
-                        <h2>Paris-Brest</h2>
-                        <div class="flex">
-                            <p class="weight200">Revisité</p>
-                            <p class="no_overflow">18€</p>
-                        </div>
-                    </a>
-                </article>
+                    <!-- Section Plats -->
+                    <section>
+                        <div class="flex_menu">
+                            <div class="auto">
+                                <h2>Plats</h2>
+                                <p class="border_bottom"></p>
+                            </div>
+                            <div class="selection_width">
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Filet de boeuf aux herbes</h3>
+                                        <div class="flex">
+                                            <p class="description">Accompagné de sa ribambelle de légumes</p>
+                                            <p class="no_overflow">40€</p>
+                                        </div>
+                                    </a>
+                                </article>
 
-                <article class="selection">
-                    <a href="#">
-                        <h2>Macaron au chocolat d'exception </h2>
-                        <div class="flex">
-                            <p class="weight200">Et glace à la vanille de Madagascar</p>
-                            <p class="no_overflow">22€</p>
-                        </div>
-                    </a>
-                </article>
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Parmentier de queue de boeuf</h3>
+                                        <div class="flex">
+                                            <p class="description">À la truffe noire sur sa purée de panais</p>
+                                            <p class="no_overflow">35€</p>
+                                        </div>
+                                    </a>
+                                </article>
 
-                <article class="selection">
-                    <a href="#">
-                        <h2>Mousse au chocolat</h2>
-                        <div class="flex">
-                            <p class="weight200">Au piment d'Espelette et à la truffe noire</p>
-                            <p class="no_overflow">23€</p>
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Filet de turbot</h3>
+                                        <div class="flex">
+                                            <p class="description">Aux agrumes</p>
+                                            <p class="no_overflow">44€</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
                         </div>
-                    </a>
-                </article>
-            </div>
-            <form method="post" action="#">
-                <input class="order_button" type="submit" value="Commander">
-            </form>
-        </section>
+                    </section>
+
+                    <!-- Section Desserts -->
+                    <section>
+                        <div class="flex_menu">
+                            <div class="auto">
+                                <h2>Desserts</h2>
+                                <p class="border_bottom"></p>
+                            </div>
+                            <div class="selection_width">
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Paris-Brest</h3>
+                                        <div class="flex">
+                                            <p class="description">Revisité</p>
+                                            <p class="no_overflow">18€</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Macaron au chocolat d'exception </h3>
+                                        <div class="flex">
+                                            <p class="description">Et glace à la vanille de Madagascar</p>
+                                            <p class="no_overflow">22€</p>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="selection">
+                                    <a href="#">
+                                        <h3>Mousse au chocolat</h3>
+                                        <div class="flex">
+                                            <p class="description">Au piment d'Espelette et à la truffe noire</p>
+                                            <p class="no_overflow">23€</p>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                        <!-- Order -->
+                        <button>Commander</button>
+
+                    </section>
+            </section>
+        </main>
 
         <footer>
             <div class="footer">
-                <h3>ohmyfood</h3>
+                <h4>ohmyfood</h4>
                 <div class="footer_flex">
                     <div class="footer_link"><a class="no_deco" href="#">
                         <i class="fa-solid fa-utensils footer_icon"></i>

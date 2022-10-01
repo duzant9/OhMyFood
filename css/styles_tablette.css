@@ -1,23 +1,24 @@
 
-/*--Restaurant search--*/
-#Restaurant_search{
+/*-- Section Explore --*/
+.section_explore{
     height: 190px;
 }
 
-/*--Steps--*/
-#shift{
+/*-- Steps --*/
+ul{
     display: flex;
+    padding-left: 10px;
 }
 .steps{
     width: 29%;
+    margin: auto;
 }
-/*--Restaurant search--*/
 .steps_icon{
     margin: 15px;
 }
 
-/*--restaurant cards--*/
-#restaurant_cards{
+/*-- Section Restaurants --*/
+.section_restaurants{
     margin-top: 40px;
 }
 .cards{
@@ -29,13 +30,13 @@ article{
     width: 45%;
 }
 .new1{
-    position: absolute; top: 720px; right: 54%;
+    position: absolute; top: 695px; right: 54%;
 }
 .new2{
-    position: absolute; top: 720px; right: 4%;
+    position: absolute; top: 695px; right: 4%;
 }
 
-/*--Footer--*/
+/*-- Footer --*/
 .footer{
     height: 100px;
 }

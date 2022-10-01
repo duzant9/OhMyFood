@@ -1,0 +1,20 @@
+
+
+/*-- Menu --*/
+.flex_menu{
+    flex-direction: column;
+    
+}
+.selection_width{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.selection{
+    width: 30%;
+    transition: transform .5s;
+}
+.selection:hover{
+    transform: translateY(-10px);
+}

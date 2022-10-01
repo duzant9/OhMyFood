@@ -23,6 +23,10 @@ h1{
     margin: auto;
     box-shadow: 0 0 10px #d9d9d9;
     margin-bottom: 13px;
+    transition: transform .5s;
+}
+.selection:hover{
+    transform: translateY(-10px);
 }
 .flex{
     display: flex;
@@ -114,6 +118,7 @@ h1{
 }
 .order_button:hover{
     cursor: pointer;
+    background: linear-gradient(#ff96e1, #a575e0);
 }
 
 /*--Footer--*/

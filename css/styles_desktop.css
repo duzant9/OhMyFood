@@ -1,34 +1,32 @@
 
-/*--Steps--*/
-#shift{
+/*-- Steps --*/
+ul{
     flex-direction: column;
 }
 .steps{
     width: 35%;
 }
+.step1{
+    margin: 0 0 20px 32px;
+}
 .step2{
-    margin-left: auto; margin-right: auto;
+    margin: 0 auto 20px auto;
 }
 .step3{
-   margin-left: auto; margin-right: 32px;
+   margin: 0 32px 0 auto;
 }
 
-/*--Restaurant cards--*/
-#restaurant_cards{
-    margin-top: 40px;
-}
+/*-- Section Restaurants --*/
 article{
     width: 24%;
     height: 280px;
 }
 .new1{
-    position: absolute; top: 900px; right: 77%;
+    position: absolute; top: 865px; right: 77%;
 }
 .new2{
-    position: absolute; top: 900px; right:  52%;
+    position: absolute; top: 865px; right:  52%;
 }
-
-
 
 /*--Footer--*/
 .footer{
