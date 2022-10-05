@@ -52,6 +52,14 @@ a{
     margin: 20px auto 15px auto;
 }
 
+/*-- Main Image --*/
+figure{
+    margin: 0;
+}
+.menu_img{
+    width: 100%;
+}
+
 /*-- Section Menu --*/
 .main_menu{
     background-color:#f6f6f6;
@@ -60,26 +68,41 @@ a{
     padding-bottom: 60px;
     position: relative;    
 }
-.menu_img{
-    width: 100%;
-}
 .title{
     display: flex;
     justify-content: space-between;
 }
-.heart{
+.fa-heart{
     font-size: 25px;
     margin-right: 10%; margin-top: 40px;
 }
+figcaption > i{
+    position: absolute; right: 8%;
+    transition: .3s;
+    cursor: pointer;
+}
+.fill{
+    color: black;
+    cursor: pointer;
+}
+.fill:hover{
+    animation: fill .5s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bold; 
+}
 
-/*-- Menu --*/
+/*-- Section Menu --*/
 .border_bottom{
     border-bottom: 3px solid #99E2D0;
     width: 40px; height: 5px;
     margin-top: 0; margin-bottom: 15px;
     margin-left: 23px;
 }
-
 .selection{
     background-color: white;
     border-radius: 20px;

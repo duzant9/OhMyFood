@@ -182,9 +182,6 @@ h3{
 .no_margin{
     margin: 0;
 }
-.weight200{
-    font-weight: 200;
-}
 .fa-heart{
     font-size: 27px;
     margin-right: 25px;
@@ -207,8 +204,7 @@ figcaption > .fill:hover{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 .marge_bottom{
