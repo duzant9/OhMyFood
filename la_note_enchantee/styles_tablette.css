@@ -29,6 +29,11 @@ h2{
 .selection:hover{
     transform: translateX(-20px);
 }
+.separation{
+    border-bottom: 3px dotted #99E2D0;
+    width: 90%;
+    margin: auto;
+}
 /*--Footer--*/
 .footer{
     height: 100px;
