@@ -27,7 +27,18 @@ article{
 .new2{
     position: absolute; top: 865px; right:  52%;
 }
-
+.heart1{
+    right: 75%;
+}
+.heart2{
+    right: 50%;
+}
+.heart3{
+    right: 25%;
+}
+.heart4{
+    right: 0%;
+}
 /*--Footer--*/
 .footer{
     height: 100px;
