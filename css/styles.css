@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
 
-h4{
-    font-family: 'Shrikhand', cursive;
-}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -29,6 +26,112 @@ body{
 p{
     font-weight: 200;
 }
+
+/*-- Titles --*/
+h1{
+    width: 80%;
+    font-size: 26px; font-weight: 550;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    font-size: 26px; font-weight: 550;
+    margin: 40px 0 30px 20px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom: 3px;
+    margin-top: 0; margin-bottom: 0;
+}
+h4{
+    margin-top: 0; padding-top: 20px;
+    color: white;
+    font-family: 'shrikhand', cursive;
+    font-size: 18px;
+}
+
+/*-- Loader --*/
+.loader{
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    text-align: center;
+  }
+  .loader-spin{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 200px auto;
+    border-radius: 60px;
+    border-top: 5px solid #9356DC;
+    border-right: 5px solid #FF79DA;
+    border-bottom: 5px solid #9356DC;
+    border-left: 5px solid #FF79DA;
+    animation-name: spin;
+    -webkit-animation-name: spin;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  @keyframes spin{
+    0% {
+      transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      overflow: hidden;
+      
+    }
+    100% {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      visibility: hidden;
+    }
+  }
+  .loader-logo{
+    font-family: 'shrikhand', cursive;
+    font-size: 50px;
+    position: absolute; top: 245px; left: 17%;
+    animation-name: in-out;
+    -webkit-animation-name: in-out;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  @keyframes in-out{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+  /*-- Loader Start --*/
+  .loader-start {
+    animation: WhitePage 2.5s;
+  }
+  @keyframes WhitePage {
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
 /*-- Header --*/
 header{
     height: 50px;
@@ -37,7 +140,7 @@ header{
     box-shadow: 3px 5px 7px #d1d1d1;
     height: 45px;
 }
-.hearder_logo{
+.header_logo{
     width: 200px;
     height: 35px;
     display: block;
@@ -67,12 +170,6 @@ header{
     height: 255px;
     padding-top: 43px;
     background-color: #f3f2f4;
-}
-h1{
-    width: 80%;
-    font-size: 26px; font-weight: 550;
-    text-align: center;
-    margin: auto;
 }
 .text_size{
     font-size: 18px;
@@ -131,10 +228,6 @@ ul{
     padding-top: 20px; padding-bottom: 55px;
     margin-top: 80px;
 }
-h2{
-    font-size: 26px; font-weight: 550;
-    margin: 40px 0 30px 20px;
-}
 article{
     background-color: white;
     width: 88%;
@@ -169,44 +262,48 @@ figure{
 }
 figcaption{
     display: flex;
-    align-items: center; justify-content: space-between;
+}
+.fig_cap_wid{
+    width: 100%; height: 100%;
 }
 .description{
     margin: 15px;
 }
-h3{
-    font-size: 20px;
-    padding-bottom: 3px;
-    margin-top: 0; margin-bottom: 0;
-}
 .no_margin{
     margin: 0;
 }
-.fa-heart{
-    font-size: 27px;
-    margin-right: 25px;
-}
-figcaption > i{
-    position: absolute; right: 8%;
-    transition: .3s;
+label > .fa-heart{
+    position: absolute;
+    margin-top: 22px;
+    right: 12%;
+    font-size: 25px;
     cursor: pointer;
 }
-figcaption > .fill{
-    color: black;
-    cursor: pointer;
-    
+.checkbox-like input[type=checkbox]:checked ~ .unchecked {
+    display: none;
 }
-figcaption > .fill:hover{
-    animation: fill .5s ease-in-out;
+.checkbox-like input[type=checkbox]:checked ~ .checked {
     display: inline-block;
-    opacity: 1;
-    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    font-weight: bold; 
+    color: rgba(255, 255, 255, 0);
 }
-
+.checkbox-like input[type=checkbox], .checkbox-like .checked {
+    display: none;
+    animation: like 1.5s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes like {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      background: linear-gradient(to bottom, #9356DC, #FF79DA);
+      -webkit-background-clip: text;
+    }
+    100% {
+      background: linear-gradient(to bottom, #9356DC, #FF79DA);
+      -webkit-background-clip: text;
+    }
+}
 .marge_bottom{
     margin-bottom: 20px;
 }
@@ -224,12 +321,6 @@ figcaption > .fill:hover{
 .no_deco{
     text-decoration: none;
     color: white;
-}
-h4{
-    margin-top: 0; padding-top: 20px;
-    color: white;
-    font-family: 'shrikhand', cursive;
-    font-size: 18px;
 }
 .footer_icon{
     padding-right: 7px;

@@ -29,8 +29,8 @@ figure {
 }
 
 /*-- Section Menu --*/
-.fa-heart{
-    position: absolute; right: 5px;
+label > .fa-heart{
+    position: absolute; right: 30px;
 }
 .flex_menu{
     flex-direction: column;
@@ -51,7 +51,7 @@ figure {
     flex-wrap: wrap;
 }
 .selection{
-    width: 30%;
+    width: 31.5%;
     transition: transform .5s;
 }
 .selection:hover{

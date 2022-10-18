@@ -1,4 +1,15 @@
 
+/*-- Loader --*/
+.loader-spin{
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+}
+.loader-logo{
+    font-size: 70px;
+    position: absolute; top: 245px; left: 35%;
+}
+
 /*-- Steps --*/
 ul{
     flex-direction: column;
@@ -19,7 +30,7 @@ ul{
 /*-- Section Restaurants --*/
 article{
     width: 24%;
-    height: 280px;
+    height: 260px;
 }
 .new1{
     position: absolute; top: 865px; right: 77%;
@@ -27,17 +38,17 @@ article{
 .new2{
     position: absolute; top: 865px; right:  52%;
 }
-.heart1{
-    right: 75%;
+label > .heart1{
+    right: 77%;
 }
-.heart2{
-    right: 50%;
+label > .heart2{
+    right: 52%;
 }
-.heart3{
-    right: 25%;
+label > .heart3{
+    right: 27%;
 }
-.heart4{
-    right: 0%;
+label > .heart4{
+    right: 2%;
 }
 /*--Footer--*/
 .footer{

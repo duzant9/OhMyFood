@@ -1,4 +1,15 @@
 
+/*-- Loader --*/
+.loader-spin{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
+.loader-logo{
+    font-size: 70px;
+    position: absolute; top: 265px; left: 25%;
+}
+
 /*-- Section Explore --*/
 .section_explore{
     height: 190px;
@@ -35,17 +46,17 @@ article{
 .new2{
     position: absolute; top: 695px; right: 4%;
 }
-.heart1{
-    right: 53%;
+label > .heart1{
+    right: 56%;
 }
-.heart2{
-    right: 3%;
+label > .heart2{
+    right: 6%;
 }
-.heart3{
-    right: 53%;
+label > .heart3{
+    right: 56%;
 }
-.heart4{
-    right: 3%;
+label > .heart4{
+    right: 6%;
 }
 /*-- Footer --*/
 .footer{
