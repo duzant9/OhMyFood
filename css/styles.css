@@ -61,7 +61,7 @@ h4{
     width: 100px;
     height: 100px;
     display: inline-block;
-    margin: 200px auto;
+    margin: 250px auto;
     border-radius: 60px;
     border-top: 5px solid #9356DC;
     border-right: 5px solid #FF79DA;
@@ -94,7 +94,9 @@ h4{
   .loader-logo{
     font-family: 'shrikhand', cursive;
     font-size: 50px;
-    position: absolute; top: 245px; left: 17%;
+    position: absolute; top: 278px; right: 1%; left: 1%;
+    display: inline-block;
+    margin:auto;
     animation-name: in-out;
     -webkit-animation-name: in-out;
     animation-duration: 2s;

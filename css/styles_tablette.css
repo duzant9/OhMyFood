@@ -4,10 +4,11 @@
     width: 150px;
     height: 150px;
     border-radius: 90px;
+    margin-top: 300px;
 }
 .loader-logo{
     font-size: 70px;
-    position: absolute; top: 265px; left: 25%;
+    position: absolute; top: 340px; right: 1%; left: 1%;
 }
 
 /*-- Section Explore --*/

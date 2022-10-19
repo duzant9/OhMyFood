@@ -4,10 +4,11 @@
     width: 120px;
     height: 120px;
     border-radius: 90px;
+    margin-top: 200px;
 }
 .loader-logo{
     font-size: 70px;
-    position: absolute; top: 245px; left: 35%;
+    position: absolute; top: 225px; right: 1%; left: 1%;
 }
 
 /*-- Steps --*/
