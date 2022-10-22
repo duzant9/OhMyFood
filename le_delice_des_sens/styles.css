@@ -12,7 +12,7 @@ h1{
     margin: 40px 30px 0 20px;
 }
 h2{
-    font-size: 17px;
+    font-size: 17px; font-weight: 400;
     margin-left: 23px;
     text-transform: uppercase;
     margin-bottom: 0; margin-top: 40px;
@@ -103,7 +103,6 @@ label > .fa-heart{
     }
   }
 
-/*-- Section Menu --*/
 .border_bottom{
     border-bottom: 3px solid #99E2D0;
     width: 40px; height: 5px;
@@ -198,13 +197,14 @@ button:hover{
 
 /*-- Footer --*/
 .footer{
-    padding-left: 25px;
+    padding-left: 25px; padding-bottom: 30px;
     height: 170px;
     background-color: rgb(39, 39, 39);
     color: white;
 }
 .footer_link{
     margin-bottom: 8px;
+    cursor: pointer;
 }
 .no_deco{
     color: white;

@@ -52,7 +52,7 @@ h4{
 
 /*-- Loader --*/
 .loader{
-    position: absolute;
+    position: absolute; z-index: -1;
     width: 100%;
     height: 10px;
     text-align: center;
@@ -312,13 +312,14 @@ label > .fa-heart{
 
 /*--Footer--*/
 .footer{
-    padding-left: 25px;
+    padding-left: 25px; padding-bottom: 30px;
     height: 170px;
     background-color: rgb(39, 39, 39);
     color: white;
 }
 .footer_link{
     margin-bottom: 8px;
+    cursor: pointer;
 }
 .no_deco{
     text-decoration: none;
