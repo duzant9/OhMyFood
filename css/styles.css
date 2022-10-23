@@ -311,7 +311,7 @@ label > .fa-heart{
 }
 
 /*--Footer--*/
-.footer{
+.footer {
     padding-left: 25px; padding-bottom: 30px;
     height: 170px;
     background-color: rgb(39, 39, 39);
@@ -320,6 +320,9 @@ label > .fa-heart{
 .footer_link{
     margin-bottom: 8px;
     cursor: pointer;
+}
+.footer_link > a{
+    color: white;
 }
 .no_deco{
     text-decoration: none;
