@@ -206,6 +206,9 @@ button:hover{
     margin-bottom: 8px;
     cursor: pointer;
 }
+.footer_link > a{
+    color: white;
+}
 .no_deco{
     color: white;
 }
